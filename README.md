@@ -42,7 +42,10 @@ xcode-select --install
 
 
 ## Launch viewer
-./build/HairSimu --viewer --hair-file references/models/straight.hair --max-strands 10000 --out output_hair_view
+-hair style 1
+ - ./build/HairSimu --viewer --hair-file references/models/straight.hair --max-strands 10000 --out output_hair_view
+-hair style 2
+ - ./build/HairSimu --viewer --hair-file references/models/dark.hair --max-strands 10000 --out output_hair_view
 
 Viewer hotkeys:
 - 1: Kajiya-Kay
