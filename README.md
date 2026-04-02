@@ -16,8 +16,8 @@ A C++ course project for strand-based hair simulation with multi-model shading c
 - Optional OpenGL viewer with real-time model switching
 
 ## Build
-cmake -S . -B build
-cmake --build build
+- cmake -S . -B build
+- cmake --build build
 
 If OpenGL and GLFW are available, viewer mode is enabled automatically. If not, the project still builds in analysis mode.
 
@@ -42,10 +42,7 @@ xcode-select --install
 
 
 ## Launch viewer
-./build/HairSimu --viewer --strands 320 --particles 18 --steps 220 --out output
-
-Launch viewer with real hair model:
-./build/HairSimu --viewer --hair-file references/models/straight.hair --max-strands 1200 --steps 140 --out output_hair_view
+./build/HairSimu --viewer --hair-file references/models/straight.hair --max-strands 10000 --out output_hair_view
 
 Viewer hotkeys:
 - 1: Kajiya-Kay

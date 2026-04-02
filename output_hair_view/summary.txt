@@ -1,0 +1,10 @@
+Hair shading comparison summary
+Strands evaluated: 10000
+Models:
+- Kajiya-Kay average luminance: 0.0483
+- Cook-Torrance average luminance: 0.0325
+- Color-Variation average luminance: 0.0605
+- Marschner-Approx average luminance: 0.3496
+- Marschner-Param average luminance: 0.0313
+- Dual-Scattering-Approx average luminance: 0.0994
+- dEon-Energy-Conserving-Approx average luminance: 0.0270

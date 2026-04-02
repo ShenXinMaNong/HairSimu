@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/main.cpp.o -c /Users/laikaijie/HairSimu/src/main.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/main.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/HairSimulation.cpp.o -c /Users/laikaijie/HairSimu/src/HairSimulation.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/HairSimulation.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/HairSimulation.cpp.o"
+},
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/HairModelLoader.cpp.o -c /Users/laikaijie/HairSimu/src/HairModelLoader.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/HairModelLoader.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/HairModelLoader.cpp.o"
+},
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/ShadingModels.cpp.o -c /Users/laikaijie/HairSimu/src/ShadingModels.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/ShadingModels.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/ShadingModels.cpp.o"
+},
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/Experiment.cpp.o -c /Users/laikaijie/HairSimu/src/Experiment.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/Experiment.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/Experiment.cpp.o"
+},
+{
+  "directory": "/Users/laikaijie/HairSimu/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -DHAIRSIMU_ENABLE_VIEWER=1 -I/Users/laikaijie/HairSimu/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++17 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/HairSimu.dir/src/Viewer.cpp.o -c /Users/laikaijie/HairSimu/src/Viewer.cpp",
+  "file": "/Users/laikaijie/HairSimu/src/Viewer.cpp",
+  "output": "CMakeFiles/HairSimu.dir/src/Viewer.cpp.o"
+}
+]

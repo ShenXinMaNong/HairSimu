@@ -20,8 +20,8 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -34,12 +34,9 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/opt/miniconda3/bin/uname"
+      - "/opt/miniconda3/condabin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
@@ -48,8 +45,8 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -62,11 +59,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -95,8 +87,8 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -109,12 +101,9 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/opt/miniconda3/bin/gmake"
+      - "/opt/miniconda3/condabin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
@@ -127,11 +116,8 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
-      - "/opt/miniconda3/bin/gmake"
-      - "/opt/miniconda3/condabin/gmake"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/gmake"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
+      - "/opt/miniconda3/bin/make"
+      - "/opt/miniconda3/condabin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
@@ -140,8 +126,8 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -154,84 +140,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "g++"
-      - "cl"
-      - "bcc"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
-      - "/opt/homebrew/bin/"
-      - "/opt/homebrew/sbin/"
-      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
-    searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
-      - "/opt/homebrew/bin/c++"
-      - "/opt/homebrew/sbin/c++"
-      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/c++"
-      - "/usr/local/bin/c++"
-      - "/System/Cryptexes/App/usr/bin/c++"
-    found: "/usr/bin/c++"
-    search_context:
-      ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -259,8 +167,8 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -273,11 +181,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -287,7 +190,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/bin/clang++ 
       Build flags: 
       Id flags:  
       
@@ -307,7 +210,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+      Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -362,8 +265,8 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -375,14 +278,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -395,11 +295,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -421,8 +316,8 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -434,14 +329,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -454,11 +346,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -480,8 +367,8 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -493,14 +380,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -513,11 +397,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -539,8 +418,8 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -552,14 +431,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -572,11 +448,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -598,8 +469,8 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -611,14 +482,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -631,11 +499,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -657,8 +520,8 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -670,14 +533,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -690,11 +550,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -716,8 +571,8 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -729,13 +584,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/opt/miniconda3/bin/objcopy"
+      - "/opt/miniconda3/condabin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
@@ -747,14 +599,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
-      - "/opt/miniconda3/bin/objcopy"
-      - "/opt/miniconda3/condabin/objcopy"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/objcopy"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -767,11 +616,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -793,8 +637,8 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -806,13 +650,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/opt/miniconda3/bin/readelf"
+      - "/opt/miniconda3/condabin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
@@ -824,14 +665,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
-      - "/opt/miniconda3/bin/readelf"
-      - "/opt/miniconda3/condabin/readelf"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/readelf"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -844,11 +682,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -870,8 +703,8 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -883,13 +716,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/opt/miniconda3/bin/dlltool"
+      - "/opt/miniconda3/condabin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
@@ -901,14 +731,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
-      - "/opt/miniconda3/bin/dlltool"
-      - "/opt/miniconda3/condabin/dlltool"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -921,11 +748,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -947,8 +769,8 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -960,13 +782,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/opt/miniconda3/bin/addr2line"
+      - "/opt/miniconda3/condabin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
@@ -978,14 +797,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
-      - "/opt/miniconda3/bin/addr2line"
-      - "/opt/miniconda3/condabin/addr2line"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/addr2line"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -998,11 +814,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1024,8 +835,8 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1037,13 +848,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/opt/miniconda3/bin/tapi"
+      - "/opt/miniconda3/condabin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
@@ -1055,14 +863,11 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
-      - "/opt/miniconda3/bin/tapi"
-      - "/opt/miniconda3/condabin/tapi"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1075,11 +880,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -1100,8 +900,8 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1114,12 +914,9 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
+      - "/opt/miniconda3/bin/install_name_tool"
+      - "/opt/miniconda3/condabin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
@@ -1128,8 +925,8 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1142,11 +939,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1157,8 +949,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW"
-      binary: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW"
+      source: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G"
+      binary: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1172,19 +964,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW'
+        Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_83dda/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_83dda.dir/build.make CMakeFiles/cmTC_83dda.dir/build
-        Building CXX object CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1cd2e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1cd2e.dir/build.make CMakeFiles/cmTC_1cd2e.dir/build
+        Building CXX object CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1198,13 +990,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_83dda
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83dda.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_1cd2e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cd2e.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_83dda -L/usr/local/lib -v CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1cd2e -L/usr/local/lib -v CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1217,7 +1009,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_83dda
+        /usr/bin/clang++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1cd2e
         
       exitCode: 0
   -
@@ -1263,19 +1055,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW']
+        ignore line: [Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_83dda/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_83dda.dir/build.make CMakeFiles/cmTC_83dda.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1cd2e/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1cd2e.dir/build.make CMakeFiles/cmTC_1cd2e.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-hwErYW -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-u5Wa1G -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1289,13 +1081,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_83dda]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83dda.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_1cd2e]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cd2e.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_83dda -L/usr/local/lib -v CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 26.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1cd2e -L/usr/local/lib -v CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1312,10 +1104,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_83dda] ==> ignore
+          arg [cmTC_1cd2e] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_83dda.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_1cd2e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1350,15 +1142,11 @@ events:
       will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:356 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     mode: "library"
     variable: "OPENGL_gl_LIBRARY"
     description: "OpenGL GL library"
@@ -1374,8 +1162,8 @@ events:
       - "OpenGL"
       - "GL"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1385,9 +1173,6 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -1404,8 +1189,8 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1418,11 +1203,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1453,7 +1233,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:358 (find_library)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "OpenGL GLU library"
@@ -1469,8 +1249,8 @@ events:
       - "OpenGL"
       - "GLU"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1480,9 +1260,6 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -1499,8 +1276,8 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1513,11 +1290,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1548,7 +1320,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:360 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Include for OpenGL"
@@ -1564,8 +1336,8 @@ events:
       - "OpenGL/gl.h"
       - "GL/gl.h"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1578,9 +1350,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -1610,8 +1379,8 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/gl.h"
+      - "/opt/miniconda3/bin/OpenGL.framework/Headers/gl.h"
+      - "/opt/miniconda3/condabin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/OpenGL.framework/Headers/gl.h"
@@ -1624,9 +1393,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/OpenGL.framework/Headers/gl.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/OpenGL.framework/Headers/gl.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/OpenGL.framework/Headers/gl.h"
-      - "/opt/miniconda3/bin/OpenGL.framework/Headers/gl.h"
-      - "/opt/miniconda3/condabin/OpenGL.framework/Headers/gl.h"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/gl.h"
@@ -1653,8 +1419,8 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1667,11 +1433,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1702,7 +1463,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:362 (find_path)"
-      - "CMakeLists.txt:22 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Include for the OpenGL GLU library"
@@ -1718,8 +1479,8 @@ events:
       - "OpenGL/glu.h"
       - "GL/glu.h"
     candidate_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/miniconda3/bin/"
+      - "/opt/miniconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
@@ -1732,9 +1493,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/opt/miniconda3/bin/"
-      - "/opt/miniconda3/condabin/"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -1764,8 +1522,8 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
-      - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/glu.h"
+      - "/opt/miniconda3/bin/OpenGL.framework/Headers/glu.h"
+      - "/opt/miniconda3/condabin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/OpenGL.framework/Headers/glu.h"
@@ -1778,9 +1536,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/OpenGL.framework/Headers/glu.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/OpenGL.framework/Headers/glu.h"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/OpenGL.framework/Headers/glu.h"
-      - "/opt/miniconda3/bin/OpenGL.framework/Headers/glu.h"
-      - "/opt/miniconda3/condabin/OpenGL.framework/Headers/glu.h"
-      - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -1807,8 +1562,8 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -1821,11 +1576,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1862,10 +1612,10 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
       - "/opt/homebrew/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:27 (find_package)"
     directories:
-      source: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-qSy7Bp"
-      binary: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-qSy7Bp"
+      source: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-7fMQam"
+      binary: "/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-7fMQam"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1878,21 +1628,21 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-qSy7Bp'
+        Change Dir: '/Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-7fMQam'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f4a7/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6f4a7.dir/build.make CMakeFiles/cmTC_6f4a7.dir/build
-        Building CXX object CMakeFiles/cmTC_6f4a7.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -arch arm64 -MD -MT CMakeFiles/cmTC_6f4a7.dir/src.cxx.o -MF CMakeFiles/cmTC_6f4a7.dir/src.cxx.o.d -o CMakeFiles/cmTC_6f4a7.dir/src.cxx.o -c /Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-qSy7Bp/src.cxx
-        Linking CXX executable cmTC_6f4a7
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f4a7.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 CMakeFiles/cmTC_6f4a7.dir/src.cxx.o -o cmTC_6f4a7
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a601c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a601c.dir/build.make CMakeFiles/cmTC_a601c.dir/build
+        Building CXX object CMakeFiles/cmTC_a601c.dir/src.cxx.o
+        /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++17 -arch arm64 -MD -MT CMakeFiles/cmTC_a601c.dir/src.cxx.o -MF CMakeFiles/cmTC_a601c.dir/src.cxx.o.d -o CMakeFiles/cmTC_a601c.dir/src.cxx.o -c /Users/laikaijie/HairSimu/build/CMakeFiles/CMakeScratch/TryCompile-7fMQam/src.cxx
+        Linking CXX executable cmTC_a601c
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a601c.dir/link.txt --verbose=1
+        /usr/bin/clang++  -arch arm64 CMakeFiles/cmTC_a601c.dir/src.cxx.o -o cmTC_a601c
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:23 (find_package)"
+      - "CMakeLists.txt:27 (find_package)"
     name: "glfw3"
     configs:
       -
@@ -1948,43 +1698,43 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glfw3Config.cmake"
+        path: "/opt/miniconda3/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glfw3-config.cmake"
+        path: "/opt/miniconda3/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/glfw3.cps"
+        path: "/opt/miniconda3/lib64/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/glfw3.cps"
+        path: "/opt/miniconda3/lib/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/glfw3.cps"
+        path: "/opt/miniconda3/share/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glfw3Config.cmake"
+        path: "/opt/miniconda3/condabin/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glfw3-config.cmake"
+        path: "/opt/miniconda3/condabin/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/cps/glfw3.cps"
+        path: "/opt/miniconda3/condabin/lib64/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/glfw3.cps"
+        path: "/opt/miniconda3/condabin/lib/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/glfw3.cps"
+        path: "/opt/miniconda3/condabin/share/cps/glfw3.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2013,8 +1763,8 @@ events:
       version: "3.4.0"
     search_context:
       ENV{PATH}:
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/miniconda3/bin"
+        - "/opt/miniconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
@@ -2027,11 +1777,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/laikaijie/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/opt/miniconda3/bin"
-        - "/opt/miniconda3/condabin"
-        - "/Users/laikaijie/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
